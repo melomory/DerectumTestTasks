@@ -34,7 +34,7 @@ static int Func1(ref KeyValuePair<int, string>[] a, int low, int high, int key)
 }
 
 /// <summary>
-///   Функция заполнения упорядоченного по ключу ассоциативного массива
+/// Функция заполнения упорядоченного по ключу ассоциативного массива
 /// </summary>
 /// <param name="a">Ссылка на массив</param>
 /// <param name="key">Ключ</param>
