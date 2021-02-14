@@ -1,0 +1,150 @@
+{
+  "form": {
+    "name": "Название формы",
+    "postmessage": "Сообщение в случае успешного заполнения формы",
+    "items": [{
+      "type": "filler",
+      "attributes": {
+        "message": "Произвольные текст"
+        }
+    }, {
+      "type": "text",
+      "attributes": {
+        "name": "Имя элемента",
+        "placeholder": "Текст для placeholder",
+        "required": true,
+        "value": "",
+        "label": "Label для элемента",
+        "class": "css-class",
+        "validationRules": [{
+          "type": "email"
+        }],
+        "disabled": false
+      }
+    }, {
+      "type": "text",
+      "attributes": {
+        "name": "Имя элемента",
+        "placeholder": "Текст для placeholder",
+        "required": true,
+        "value": "",
+        "label": "Label для элемента",
+        "class": "css-class",
+        "validationRules": [{
+          "type": "tel"
+        }],
+        "disabled": false
+      }
+    }, {
+      "type": "text",
+      "attributes": {
+        "name": "Имя элемента",
+        "placeholder": "Текст для placeholder",
+        "required": true,
+        "value": "",
+        "label": "Label для элемента",
+        "class": "css-class",
+        "validationRules": [{
+          "type":"text"
+        }],
+        "disabled": false
+      }
+    }, {
+      "type": "textarea",
+      "attributes": {
+        "name": "Имя элемента",
+        "placeholder": "Текст для placeholder",
+        "required": true, 
+        "value": "",
+        "label": "Label для элемента",
+        "class": "css-class",
+        "validationRules": [{
+          "type": "text"
+        }],
+        "disabled": false
+      }
+    }, {
+      "type": "checkbox",
+      "attributes": {
+        "name": "Имя элемента",
+        "placeholder": "Текст для placeholder",
+        "required": true,
+        "label": "Label для элемента",
+        "class": "css-class",
+        "validationRules": [{
+          "type": "text"}],
+          "disabled": false,
+          "checked": true
+        }
+      }, {
+        "type": "button",
+        "attributes": {
+          "text": "Текст кнопки",
+          "class":"css-class"
+        }
+      }, {
+        "type": "select",
+        "attributes": {
+          "name": "Имя элемента",
+          "placeholder": "Текст для placeholder",
+          "required": true,
+          "value": "",
+          "label": "Label для элемента",
+          "class": "css-class",
+          "validationRules": [{
+            "type": "text"
+          }],
+          "disabled": false,
+          "options": [{
+            "item": "option",
+            "attributes": {
+              "value": "One",
+              "text": "Text",
+              "selected": true
+            }
+          }, {
+            "item": "option",
+            "attributes": {
+              "value": "One", 
+              "text": "Text",
+              "selected": false
+            }
+          }]
+        }
+      }, {
+        "type": "radio",
+        "attributes": {
+          "name": "Имя элемента",
+          "placeholder": "Текст для placeholder",
+          "required": true,
+          "class": "css-class",
+          "validationRules": [{
+            "type": "email"
+          }],
+          "disabled": false,
+          "items": [{
+            "value": "",
+            "label": "Label для элемента",
+            "checked": true
+          }]
+        }
+      }, {
+        "type": "radio",
+        "attributes": {
+          "name": "Имя элемента",
+          "placeholder": "Текст для placeholder",
+          "required": true,
+          "class":"css-class", 
+          "validationRules": [{
+            "type":"email"
+          }],
+          "disabled": false,
+          "items": [{
+            "value": "",
+            "label": "Label для элемента",
+            "checked": false
+          }]
+        }
+      }]
+    }
+  }
