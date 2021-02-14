@@ -1,10 +1,10 @@
 /// <summary>
 /// Функция бинарного поиска ключа по ассоциативному массиву
 /// </summary>
-/// <param name="a"></param>
-/// <param name="low"></param>
-/// <param name="high"></param>
-/// <param name="key"></param>
+/// <param name="a">Ссылка на массив</param>
+/// <param name="low">нижняя граница</param>
+/// <param name="high">верхняя граница</param>
+/// <param name="key">ключ</param>
 /// <returns></returns>
 static int Func1(ref KeyValuePair<int, string>[] a, int low, int high, int key)
 {
